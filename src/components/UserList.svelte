@@ -51,12 +51,13 @@
 
 <style>
   .card-container {
-    width: 350px;
+    width: 330px;
     margin-bottom: 50px;
     display: inline-block;
     border-radius: 20px;
     background-color: #fff;
     padding: 10px;
+    box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
   }
 
   .user-container {

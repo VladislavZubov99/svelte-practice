@@ -1,5 +1,7 @@
 <script>
   import UserList from "./components/UserList.svelte";
+  import Profile from "./components/Profile.svelte";
+  import Filter from "./components/Filters/Filter.svelte";
 
 </script>
 
@@ -9,6 +11,8 @@
 
 <div class="main-container">
   <div class="columns">
+    <Filter />
+    <Profile />
     <UserList/>
   </div>
 </div>

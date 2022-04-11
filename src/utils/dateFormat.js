@@ -13,7 +13,6 @@ export function getDateFormat(dateStr) {
     let currentDate = new Date(dateStr);
 
     let date = currentDate.getDate();
-    console.log(date)
     let month = currentDate.getMonth();
     let hours = currentDate.getHours();
     let minutes = currentDate.getMinutes();
